@@ -42,7 +42,7 @@ Same tools exposed as an MCP server over stdio so you can attach them in LM Stud
    (stdio; for LM Studio you do not run this yourself—LM Studio starts it.)
 3. **Add in LM Studio:** Developer Settings → MCP → Add server. Example config:
    - **Command:** `python`
-   - **Args:** `["/absolute/path/to/survey-memory-for-ggj/demo/retrieval/mcp_memory_server.py"]`  
+   - **Args:** `["/absolute/path/to/agent-memory-demos/demo/retrieval/mcp_memory_server.py"]`  
    Or from repo root: args `["demo/retrieval/mcp_memory_server.py"]` and set working directory to the repo root.
    - **Transport:** stdio (default).
 
